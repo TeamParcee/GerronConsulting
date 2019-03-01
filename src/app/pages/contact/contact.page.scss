@@ -1,0 +1,36 @@
+
+ion-list-header{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+
+  
+    ion-card-content, ion-card-title, ion-card, ion-list, ion-item{
+      background: white
+    }
+
+
+    .bgimageContact{
+        opacity: .3;
+        background-color: lightgrey; /* Used if the image is unavailable */
+        width: 100%;
+        position: relative;
+        background-size: contain; /* Resize the background image to cover the entire container */
+        height: 150px;
+        background-image: url("../../../assets/imgs/contact-bg.jpg"); /* The image used */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+  
+      }
+  
+   
+ 
+    footer {
+      padding: 10px;
+      background: rgb(250, 246, 246);
+      color: #333;
+  }
+    
+  

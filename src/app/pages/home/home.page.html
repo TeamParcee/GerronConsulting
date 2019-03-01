@@ -1,0 +1,255 @@
+<ion-header id="header">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button class="hidden-md-up"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      <img class="hidden-sm-down" height="50px" width="300px"  src="../../../assets/imgs/White logo - no background.png" />
+     <img class="hidden-md-up" height="40px" src="../../../assets/imgs/White logo - no background.png" /> 
+    </ion-title>
+    <ion-buttons class="hidden-sm-down" slot="end">
+      <ion-button (click)="scrollTo('home')">Home</ion-button>
+      <ion-button (click)="scrollTo('services')">Services</ion-button>
+      <ion-button (click)="scrollTo('experience')">Experience</ion-button>
+      <ion-button>Blog</ion-button>
+      <ion-button (click)="scrollTo('contact')">Contact</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="bgimage"></div>
+
+  <ion-grid class="hidden-md-up">
+    <div >
+
+      <ion-row>
+        <ion-col>
+          <h1 class="fadeIn" style="font-size: 30px;" text-center>A passion to provide exceptional living to all
+            residents</h1>
+        </ion-col>
+      </ion-row>
+
+    </div>
+  </ion-grid>
+
+
+
+
+  <ion-grid padding id="home">
+    <div class="hidden-sm-down" style=" padding: 120px ">
+
+      <ion-row>
+        <ion-col>
+          <h1 class="fadeIn" style="font-size: 50px;" text-center>A passion to provide exceptional living to all
+            residents</h1>
+        </ion-col>
+      </ion-row>
+
+    </div>
+    <ion-row style="margin-top: 10px">
+      <ion-col>
+        <h2>Why Choose A Consultant?</h2>
+        <p>Not every Health Care Facility needs a full time compliance expert.
+          Partnering with Gerron Consulting provides you with an unbiased team member to ensure you are meeting state
+          standards
+          as well as continually enhancing your quality of care.
+        </p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <h2>Get Started Today</h2>
+        <p>Where does your Community have the most opportunity?
+          Gerron Consulting offers many services to improve your regulatory compliance and quality of care. Request
+          your
+          service needs today.
+        </p>
+      </ion-col>
+    </ion-row>
+    <ion-row class="hidden-sm-down">
+        <ion-col>
+          <ion-button (click)="scrollTo('services')" size="large" expand="block" fill="clear">View Services</ion-button>
+        </ion-col>
+      </ion-row>
+    <ion-row>
+      <ion-col  class="hidden-md-up">
+        <ion-button  routerLink="/services" size="large" expand="block" fill="clear">View Services</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div class="bgimageServices"></div>
+
+  <ion-grid class="hidden-sm-down" id="services">
+    <div style=" padding: 120px ">
+
+      <ion-row>
+        <ion-col>
+          <h1 class="fadeIn" style="font-size: 50px;" text-center>Services</h1>
+        </ion-col>
+      </ion-row>
+
+
+    </div>
+
+    <ion-row style="padding: 25px 100px">
+      <ion-col size-xs="12" size-md="4">
+
+        <ion-card>
+          <ion-card-content>
+            <ion-list>
+              <ion-list-header>Consultation</ion-list-header>
+              <ion-item>
+                Policy development and/or revision for all operational departments
+              </ion-item>
+              <ion-item>
+                State preparation
+              </ion-item>
+              <ion-item>
+                Complex and/or acute health care needs in which level of care is in question
+              </ion-item>
+              <ion-item>
+                New Construction/Building Opening application process
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+
+      </ion-col>
+
+      <ion-col size-xs="12" size-md="4">
+        <ion-card>
+          <ion-card-content>
+            <ion-list>
+              <ion-list-header>Training</ion-list-header>
+              <ion-item>
+                Supervisory and Management
+              </ion-item>
+              <ion-item>
+                Assessment Practices
+              </ion-item>
+              <ion-item>
+                Investigation Process
+              </ion-item>
+              <ion-item>
+                Medication Administration and Provision
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+
+      </ion-col>
+
+      <ion-col size-xs="12" size-md="4">
+        <ion-card>
+          <ion-card-content>
+            <ion-list>
+              <ion-list-header>Review</ion-list-header>
+              <ion-item>
+                State Survey Plan of Correction
+              </ion-item>
+              <ion-item>
+                Quality Assurance/Improvement Evaluations
+              </ion-item>
+              <ion-item>
+                Investigation Documents and Process
+              </ion-item>
+              <ion-item>
+                Medication Administration Policies
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div class="bgimageExperience"></div>
+  <ion-grid class="hidden-sm-down" id="experience">
+    <div style=" padding: 120px ">
+
+      <ion-row>
+        <ion-col>
+          <h1 class="fadeIn" style="font-size: 50px;" text-center>Experience</h1>
+        </ion-col>
+      </ion-row>
+
+
+    </div>
+
+    <ion-card>
+      <ion-card-content>
+        <ion-list>
+          <ion-list-header>History</ion-list-header>
+          <ion-item>
+            Registered Nurse experienced in residential health care facility management and regulatory oversight.
+          </ion-item>
+          <ion-item>
+            An active participant in initial applications, renewals, survey preparation, training of health care staff,
+            and quality improvement.
+          </ion-item>
+          <ion-item>
+            Quality assurance practices with a passion to provide exceptional living for all residents.
+          </ion-item>
+        </ion-list>
+
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-card-content>
+        <ion-list>
+          <ion-list-header>Clients</ion-list-header>
+          <ion-item>Dial Retirement Communites</ion-item>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+
+  </ion-grid>
+
+  <div class="bgimageContact"></div>
+  <ion-grid class="hidden-sm-down" id="contact">
+
+    <div style=" padding: 120px ">
+
+      <ion-row>
+        <ion-col>
+          <h1 class="fadeIn" style="font-size: 50px;" text-center>Contact</h1>
+        </ion-col>
+      </ion-row>
+
+    </div>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <ion-card-content>
+            <ion-list>
+              <ion-list-header>Tell me about your goals so I can get started</ion-list-header>
+              <ion-item>
+                Email: bgerron@gerronconsulting.com
+              </ion-item>
+              <ion-item>
+                Phone: (402) 657-1751
+              </ion-item>
+              <ion-item>
+                Address: 16110 Drexel Circle, Omaha NE 68135
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+  <footer>
+    <div text-center>
+
+      Copyright © 2018 Gerron Assisted Living Consulting, LLC - All Rights Reserved.
+      <p></p>
+    </div>
+
+  </footer>
+</ion-content>
